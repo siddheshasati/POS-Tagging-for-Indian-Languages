@@ -1,0 +1,7 @@
+streamlit
+nltk
+indic-nlp-library
+transformers
+torch
+langdetect
+sklearn-crfsuite
