@@ -6,3 +6,16 @@ This project focuses on developing Part-of-Speech (POS) taggers for major Indian
 ![Project Screenshot](Images/Input_Sentence.png)
 
 
+
+
+![Project Screenshot](Images/POS_taggers_for_hindi.png)
+
+
+
+
+![Project Screenshot](Images/POS_taggers_for_Marathi.png)
+
+
+
+
+![Project Screenshot](Images/POS_taggers_for_Tamil.png)
