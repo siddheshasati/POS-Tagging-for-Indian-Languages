@@ -18,14 +18,14 @@ for path, name in nltk_resources:
     except LookupError:
         nltk.download(name)
 
-# Supported NLTK languages
+
 nltk_languages = {
     'hi': 'hindi.pos',
     'mr': 'marathi.pos',
     'gu': 'gujarati.pos'
 }
 
-# HuggingFace multilingual model
+
 model_checkpoint = "Davlan/bert-base-multilingual-cased-ner-hrl"
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 model = AutoModelForTokenClassification.from_pretrained(model_checkpoint)
