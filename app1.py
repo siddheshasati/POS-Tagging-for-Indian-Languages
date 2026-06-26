@@ -50,7 +50,6 @@ def pos_transformer(text):
     except:
         return []
 
-# Supported languages for UI
 lang_labels = {
     'hi': 'Hindi',
     'mr': 'Marathi',
