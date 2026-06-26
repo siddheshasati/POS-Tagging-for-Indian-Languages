@@ -31,7 +31,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 model = AutoModelForTokenClassification.from_pretrained(model_checkpoint)
 nlp_pos = pipeline("ner", model=model, tokenizer=tokenizer, aggregation_strategy="simple")
 
-# NLTK POS tagging with backoff
+
 def pos_nltk(text, lang_code):
     try:
         tagged_sents = indian.tagged_sents(nltk_languages[lang_code])
@@ -42,7 +42,6 @@ def pos_nltk(text, lang_code):
     except Exception as e:
         return None
 
-# Transformer tagging
 def pos_transformer(text):
     try:
         entities = nlp_pos(text)
