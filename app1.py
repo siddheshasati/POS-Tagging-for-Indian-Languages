@@ -59,7 +59,6 @@ lang_labels = {
     'te': 'Telugu'
 }
 
-# Streamlit UI
 st.set_page_config(page_title="POS Tagger for Indian Languages", layout="centered")
 st.title("🇮🇳 POS Tagger for Indian Languages")
 st.caption("Supports Hindi, Marathi, Gujarati (NLTK) + Tamil, Telugu & others (Transformer Model)")
