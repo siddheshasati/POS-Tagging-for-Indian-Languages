@@ -8,7 +8,6 @@ from nltk.tag import UnigramTagger, DefaultTagger
 from nltk.tokenize import wordpunct_tokenize
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
-
 nltk_resources = [
     ('tokenizers/punkt', 'punkt'),
     ('corpora/indian', 'indian'),
