@@ -1,6 +1,3 @@
-# POS Taggers for Indian Languages - Enhanced with Transformer fallback
-
-# Requirements:
 # pip install nltk indic-nlp-library streamlit transformers torch langdetect sklearn_crfsuite
 
 import streamlit as st
@@ -11,7 +8,7 @@ from nltk.tag import UnigramTagger, DefaultTagger
 from nltk.tokenize import wordpunct_tokenize
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
-# Download necessary NLTK resources
+
 nltk_resources = [
     ('tokenizers/punkt', 'punkt'),
     ('corpora/indian', 'indian'),
