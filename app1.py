@@ -4,7 +4,7 @@ import streamlit as st
 from langdetect import detect
 import nltk
 from nltk.corpus import indian
-from nltk.tag import UnigramTagger, DefaultTagger
+from nltk.tag import UnigramTagger, DefaultTagger 
 from nltk.tokenize import wordpunct_tokenize
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
